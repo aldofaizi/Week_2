@@ -1,0 +1,33 @@
+1. Newton Second Law
+    STORE "resultan"
+    STORE "massa"
+    STORE "percepatan"
+    
+    CALCULATE "massa" TIMES "percepatan"
+    SET "resultan" VALUE WITH CALCULATION RESULT
+
+    DISPLAY RESULTAN
+
+2. Tahun Kabisat
+    STORE "tahun"
+
+    IF "tahun" divide 4 == 0 AND
+       "tahun" divide 100 == 0 AND
+       "tahun" divide 400 == 0
+        DISPLAY "Ini tahun kabisat"
+    ELSE
+        DISPLAY "Bukan tahun kabisat"
+
+3. Laundry Day
+    BAJU = 0
+    for BAJU YANG AKAN DICUCI,
+        BAJU = BAJU + 1
+    IF BAJU === BAJU YANG AKAN DICUCI
+        DO nyalakan mesin cuci
+        
+4. Periksa Kuku
+    IF "kuku" == Panjang
+        DO HUKUM
+    IF "kuku" == Pendek
+        DO PUJI
+    
