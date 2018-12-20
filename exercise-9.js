@@ -1,9 +1,9 @@
 // TUGAS 1 //
 function shoutOut() {
-    console.log('Halo function!')
+    return 'Halo function!'
 }
-
 console.log(shoutOut()) // Menampilkan "Halo Function!" di console
+console.log('')
 
 
 // TUGAS 2 //
@@ -11,18 +11,16 @@ function calculateMultiply(num1, num2) {
     hasilPerkalian = num1 * num2
     return hasilPerkalian
 }
-
 var num1 = 5;
 var num2 = 6;
-
 var hasilPerkalian = calculateMultiply(num1,num2);
 console.log(hasilPerkalian); // Menampilkan angka 30
+console.log('')
 
 // TUGAS 3 //
 function processSentence(name, age, address, hobby) {
-    console.log("Nama saya",name,", umur saya ",age," tahun, alamat saya di ",address,", dan saya punya hobby yaitu ",hobby,"!");
+    return "Nama saya " + name + ", umur saya " + age + " tahun, alamat saya di " + address + ", dan saya punya hobby yaitu " + hobby + "!"
 }
-
 var name = "Agus";
 var age = 30;
 var address = "Jln. Malioboro, Yogjakarta";

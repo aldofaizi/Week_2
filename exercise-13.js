@@ -3,10 +3,10 @@ function xo(tulisan) {
     var jumlahO = 0
     for (i = 0; i < tulisan.length; i++) {
         if (tulisan[i] === 'x') {
-            var jumlahX = jumlahX + 1;
+                jumlahX = jumlahX + 1;
         }
         else if (tulisan[i] === 'o') {
-            var jumlahO = jumlahO + 1;
+                jumlahO = jumlahO + 1;
         }
     }
     if (jumlahX === jumlahO) {

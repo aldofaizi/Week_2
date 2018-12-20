@@ -2,9 +2,9 @@ var terbalik = "";
 
 function balikKata(kata) {
     for (var i = kata.length -1; i >= 0; i--) {
-       terbalik += kata[i] + "";
+       terbalik += kata[i]
     }
-    console.log(terbalik);
+    return terbalik
 }
   
 // TEST CASES

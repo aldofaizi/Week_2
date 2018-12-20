@@ -1,21 +1,28 @@
 var rows1 = 5;
 var rows2 = 5;
 var rows3 = 5;
-var bin = '';
 
-//for (var i = 0; i < rows1; i++) {
-//   console.log('*');
-//}
 
 for (var i = 0; i < rows1; i++) {
         console.log('*')
 }
 
-for (var i = 0; i <= rows2; i ++) {
-        for (var j = 0; j <= i; i++) {
-                console.log('tes')
+console.log('')
+
+for (var j = 0; j < rows2; j++) {
+        var tampung = ''
+        for (k = 0; k < rows2; k++) {
+                tampung += '*'
         }
+        console.log(tampung)
 }
-for (var i = 0; i <= rows3; i++) {
-        console.log('*'.repeat(i));
+
+console.log('')
+
+for (var l = 0; l < rows3; l++) {
+        var nampung = ''
+        for (var m = 0; m <= l; m++) {
+                nampung += '*'
+        }
+        console.log(nampung)
 }
