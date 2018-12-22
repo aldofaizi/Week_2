@@ -11,10 +11,13 @@
 2. Tahun Kabisat
     STORE "tahun"
 
-    IF "tahun" divide 4 == 0 AND
-       "tahun" divide 100 == 0 AND
-       "tahun" divide 400 == 0
-        DISPLAY "Ini tahun kabisat"
+    IF "tahun" mod 4 == 0
+        THEN
+            IF "tahun" mod 100 == 0
+                THEN
+                    IF "tahun" mod 400 == 0
+                    THEN
+                    DISPLAY "Ini tahun kabisat"
     ELSE
         DISPLAY "Bukan tahun kabisat"
 
