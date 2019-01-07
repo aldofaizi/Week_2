@@ -29,6 +29,8 @@
         DO nyalakan mesin cuci
         
 4. Periksa Kuku
+    while MURID <= 40
+    DO
     IF "kuku" == Panjang
         DO HUKUM
     IF "kuku" == Pendek
